@@ -40,7 +40,7 @@ Tutorial step-by-step untuk membuat AI Agent Hermes yang berjalan di Android men
 ### Langkah 1: Tambah VPS ke Termius
 
 1. Buka Termius
-2. Tap ikon **"+ NEW HOST"** (右下角)
+2. Tap ikon **"+ NEW HOST"** (pojok kanan bawah)
 3. Isi field berikut:
 
 ```
@@ -61,7 +61,7 @@ Password: [password VPS]
 
 ### Tips Termius
 
-- **Add Key** (kunci SSH) biar gak perlu每次login pake password
+- **Add Key** (kunci SSH) biar gak perlusetiap kali login pake password
 - **Snippets**: Simpan command yang sering dipake
 - **Themes**: Ganti tema biar nyaman di mata
 
@@ -362,7 +362,7 @@ Groq menyediakan API gratis dengan throughput tinggi.
 
 1. Buka bot yang baru dibuat (search nama bot lo)
 2. Send message: `/start`
-3. Buka browser,访问:
+3. Buka browser,akses:
    ```
    https://api.telegram.org/bot6123456789:AAFxxxxxxxxxxxxxxxxxxxxxx/getUpdates
    ```
@@ -515,7 +515,7 @@ Lo udah berhasil setup Hermes AI Agent!Sekarang lo punya:
 
 ## 🤝 Kontribusi
 
-Tutorial ini open source. Kalo ada yang salah atau mau添 加内容, feel free untuk buat PR!
+Tutorial ini open source. Kalo ada yang salah atau mautambah  konten, feel free untuk buat PR!
 
 ## 📄 Lisensi
 

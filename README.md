@@ -589,11 +589,23 @@ Lo udah berhasil setup Hermes AI Agent!Sekarang lo punya:
 
 ## 📚 Referensi
 
+### Official Documentation
 - [Hermes Agent Official Docs](https://hermes-agent.nousresearch.com)
-- [FreeLLMAPI](https://freellmapi.com)
-- [Groq Console](https://console.groq.com)
-- [Telegram BotFather](https://t.me/botfather)
-- [Contabo](https://contabo.com)
+
+### Free API Providers
+- [FreeLLMAPI](https://freellmapi.com) - Unlimited free tier
+- [Groq Console](https://console.groq.com) - $30 free credits
+- [NVIDIA API](https://build.nvidia.com) - Free tier models
+- [GeneralCompute](https://www.generalcompute.com) - $10 FREE credits
+- [Together AI](https://together.ai) - $5 free credits
+- [OpenRouter](https://openrouter.ai) - $1 free credits
+- [HuggingFace](https://huggingface.co) - Free inference API
+- [Google AI Studio](https://aistudio.google.com) - Free tier
+
+### Tools & Services
+- [Telegram BotFather](https://t.me/botfather) - Create Telegram bots
+- [Contabo](https://contabo.com) - VPS hosting (€6.99/bulan)
+- [Termius](https://termius.com) - SSH client untuk Android
 
 ## 🤝 Kontribusi
 

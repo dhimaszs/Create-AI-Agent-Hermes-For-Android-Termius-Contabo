@@ -515,7 +515,7 @@ Lo udah berhasil setup Hermes AI Agent!Sekarang lo punya:
 
 ## 🤝 Kontribusi
 
-Tutorial ini open source. Kalo ada yang salah atau mau添 加内容, feel free untuk buat PR!
+Tutorial ini open source. Kalo ada yang salah atau mautambah konten, feel free untuk buat PR!
 
 ## 📄 Lisensi
 

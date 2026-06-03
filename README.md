@@ -80,7 +80,7 @@ Password: [password VPS]
 ### Langkah 2: Edit credentials untuk contabo
 
 After purchase, lo akan dapat email dengan:
-- **IP Address**: contoh `162.144.89.198`
+- **IP Address**: contoh `YOUR_VPS_IP`
 - **Username**: `root`
 - **Password**: [random string]
 
@@ -88,7 +88,7 @@ After purchase, lo akan dapat email dengan:
 
 ```bash
 # Login via Termius
-ssh root@162.144.89.198
+ssh root@YOUR_VPS_IP
 
 # Atau langsung dari Termius app
 ```
@@ -130,13 +130,13 @@ ufw status
 
 ```bash
 # Buat user baru
-adduser youruser
+adduser dimas
 
 # Add ke sudo group
-usermod -aG sudo youruser
+usermod -aG sudo dimas
 
 # Switch ke user baru
-su - youruser
+su - dimas
 
 # Setup SSH key untuk user baru
 mkdir ~/.ssh
@@ -250,9 +250,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=youruser
-WorkingDirectory=/home/youruser/hermes
-ExecStart=/home/youruser/hermes/venv/bin/python -m hermes_agent run
+User=dimas
+WorkingDirectory=/home/dimas/hermes
+ExecStart=/home/dimas/hermes/venv/bin/python -m hermes_agent run
 Restart=always
 RestartSec=10
 
@@ -366,7 +366,7 @@ Groq menyediakan API gratis dengan throughput tinggi.
    ```
    https://api.telegram.org/bot6123456789:AAFxxxxxxxxxxxxxxxxxxxxxx/getUpdates
    ```
-4. Cari `"chat":{"id":YourTelegramID` — itu chat ID lo
+4. Cari `"chat":{"id":1818264710` — itu chat ID lo
 
 ### Langkah 3: Setup di Hermes
 
@@ -374,8 +374,8 @@ Edit file `.env`:
 
 ```env
 TELEGRAM_BOT_TOKEN=6123456789:AAFxxxxxxxxxxxxxxxxxxxxxx
-TELEGRAM_CHAT_ID=YourTelegramID
-ALLOWED_USERS=YourTelegramID
+TELEGRAM_CHAT_ID=1818264710
+ALLOWED_USERS=1818264710
 ```
 
 ### Langkah 4: Restart Hermes
@@ -434,7 +434,7 @@ sudo systemctl restart hermes
 ```bash
 # Pastikan CHAT_ID sama persis
 # Include tanda minus kalo bot dalam group
-ALLOWED_USERS=YourTelegramID,-1001234567890
+ALLOWED_USERS=1818264710,-1001234567890
 ```
 
 ### Error: "API Key invalid"
@@ -469,7 +469,7 @@ sudo journalctl -u hermes -f
 sudo journalctl -u hermes --since "1 hour ago"
 
 # App logs
-tail -f /home/youruser/hermes/logs/hermes.log
+tail -f /home/dimas/hermes/logs/hermes.log
 ```
 
 ### Reset Everything

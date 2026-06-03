@@ -366,7 +366,7 @@ Groq menyediakan API gratis dengan throughput tinggi.
    ```
    https://api.telegram.org/bot6123456789:AAFxxxxxxxxxxxxxxxxxxxxxx/getUpdates
    ```
-4. Cari `"chat":{"id":1818264710` — itu chat ID lo
+4. Cari `"chat":{"id":YourTelegramID` — itu chat ID lo
 
 ### Langkah 3: Setup di Hermes
 
@@ -374,8 +374,8 @@ Edit file `.env`:
 
 ```env
 TELEGRAM_BOT_TOKEN=6123456789:AAFxxxxxxxxxxxxxxxxxxxxxx
-TELEGRAM_CHAT_ID=1818264710
-ALLOWED_USERS=1818264710
+TELEGRAM_CHAT_ID=YourTelegramID
+ALLOWED_USERS=YourTelegramID
 ```
 
 ### Langkah 4: Restart Hermes
@@ -434,7 +434,7 @@ sudo systemctl restart hermes
 ```bash
 # Pastikan CHAT_ID sama persis
 # Include tanda minus kalo bot dalam group
-ALLOWED_USERS=1818264710,-1001234567890
+ALLOWED_USERS=YourTelegramID,-1001234567890
 ```
 
 ### Error: "API Key invalid"

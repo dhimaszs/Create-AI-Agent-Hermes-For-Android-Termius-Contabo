@@ -130,13 +130,13 @@ ufw status
 
 ```bash
 # Buat user baru
-adduser dimas
+adduser youruser
 
 # Add ke sudo group
-usermod -aG sudo dimas
+usermod -aG sudo youruser
 
 # Switch ke user baru
-su - dimas
+su - youruser
 
 # Setup SSH key untuk user baru
 mkdir ~/.ssh
@@ -250,9 +250,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=dimas
-WorkingDirectory=/home/dimas/hermes
-ExecStart=/home/dimas/hermes/venv/bin/python -m hermes_agent run
+User=youruser
+WorkingDirectory=/home/youruser/hermes
+ExecStart=/home/youruser/hermes/venv/bin/python -m hermes_agent run
 Restart=always
 RestartSec=10
 
@@ -469,7 +469,7 @@ sudo journalctl -u hermes -f
 sudo journalctl -u hermes --since "1 hour ago"
 
 # App logs
-tail -f /home/dimas/hermes/logs/hermes.log
+tail -f /home/youruser/hermes/logs/hermes.log
 ```
 
 ### Reset Everything

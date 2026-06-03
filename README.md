@@ -73,7 +73,7 @@ Password: [password VPS]
 
 1. Buka https://contabo.com
 2. Pilih **VPS S** (€6.99/bulan) atau lebih
-3. Pilih lokasi server (rekomendasi: Frankfurt atau Amsterdam)
+3. Pilih lokasi server (rekomendasi: Singapore atau Tokyo)
 4. Pilih OS: **Ubuntu 22.04 LTS**
 5. Checkout & bayar
 

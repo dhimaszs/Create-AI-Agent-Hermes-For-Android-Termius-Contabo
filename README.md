@@ -417,17 +417,6 @@ FREE_LLM_API_KEY=gc-xxxxxxxxxxxxxxxxxxxxx
 | **Google AI** | Free tier | Gemini Pro | [aistudio.google.com](https://aistudio.google.com) |
 | **NVIDIA API** | Free tier | Llama 3.3, Mistral, Qwen2 | [build.nvidia.com](https://build.nvidia.com/) |
 | **GeneralCompute** | **$10 FREE** | Various models | [generalcompute.com](https://www.generalcompute.com/) |
-----------|--------------|-----------------|------|
-| **FreeLLMAPI** | Unlimited (free tier) | Qwen, Gemini, Llama | freellmapi.com |
-| **Groq** | $30 | Llama3, Mixtral | console.groq.com |
-| **Together AI** | $5 | Various open source | together.ai |
-| **OpenRouter** | $1 | 100+ models | openrouter.ai |
-| **HuggingFace** | Free tier | Various | huggingface.co |
-| **Google AI** | Free tier | Gemini Pro | aistudio.google.com |
-| **NVIDIA API** | Free tier | Llama 3.3, Mistral, Qwen2 | build.nvidia.com |
-| **GeneralCompute** | **$10 FREE** | Various models | generalcompute.com |
-
----
 
 ## 6. Konek ke Bot Telegram
 

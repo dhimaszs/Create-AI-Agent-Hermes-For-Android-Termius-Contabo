@@ -61,7 +61,7 @@ Password: [password VPS]
 
 ### Tips Termius
 
-- **Add Key** (kunci SSH) biar gak perlusetiap kali login pake password
+- **Add Key** (kunci SSH) biar gak perlu setiap kali login pake password
 - **Snippets**: Simpan command yang sering dipake
 - **Themes**: Ganti tema biar nyaman di mata
 
@@ -362,7 +362,7 @@ Groq menyediakan API gratis dengan throughput tinggi.
 
 1. Buka bot yang baru dibuat (search nama bot lo)
 2. Send message: `/start`
-3. Buka browser,akses:
+3. Buka browser, akses:
    ```
    https://api.telegram.org/bot6123456789:AAFxxxxxxxxxxxxxxxxxxxxxx/getUpdates
    ```

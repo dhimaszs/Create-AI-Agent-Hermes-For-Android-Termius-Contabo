@@ -334,6 +334,77 @@ Groq menyediakan API gratis dengan throughput tinggi.
 3. Dapat API key di section "Get API key"
 4. Free tier: 60 requests/minute
 
+### Option 7: NVIDIA API (FREE tier)
+
+NVIDIA menyediakan API gratis untuk berbagai model open-source populer.
+
+**Cara dapat key:**
+1. Buka https://build.nvidia.com
+2. Login dengan akun NVIDIA (atau buat baru gratis)
+3. Pilih model yang mau digunakan
+4. Copy API key yang disediakan
+5. Tidak perlu credit card!
+
+**Model yang tersedia:**
+- Llama 3.3 70B Instruct
+- Mistral Large
+- Qwen2.5 Coder
+- Dan banyak lagi
+
+**Kelebihan:**
+- API gratis tanpa batas (rate limited)
+- Model berkualitas tinggi
+- Easy integration
+
+**Contoh penggunaan:**
+```env
+# Set di .env
+NVIDIA_API_KEY=nv-xxxxxxxxxxxxxxxxxxxxx
+
+# Atau via curl
+curl -X POST "https://integrate.api.nvidia.com/v1/chat/completions" \
+  -H "Authorization: Bearer nv-xxxxxxxxxxxxxxxxxxxxx" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "nvidia/llama-3.3-nemotron-70b-instruct",
+    "messages": [{"role": "user", "content": "Hello!"}],
+    "max_tokens": 1024
+  }'
+```
+
+### Option 8: GeneralCompute (FREE $10 Credits!)
+
+**GRATIS $10 credits** untuk penggunaan API! Offer yang sangat menarik.
+
+**Cara dapat key:**
+1. Buka https://www.generalcompute.com
+2. Daftar akun gratis
+3. Dapat $10 free credits otomatis
+4. Tidak perlu credit card untuk awal
+5. API key tersedia di dashboard
+
+**Model yang tersedia:**
+- Various open source models
+- Competitive pricing setelah credits habis
+- Good for testing & development
+
+**Kelebihan:**
+- ✅ $10 FREE credits = bisa testing banyak
+- ✅ Tidak perlu credit card upfront
+- ✅ Banyak model pilihan
+
+**Contoh penggunaan:**
+```env
+# Set di .env
+GENERALCOMPUTE_API_KEY=gc-xxxxxxxxxxxxxxxxxxxxx
+
+# Model config example
+MODEL=nvidia/llama-3.3-nemotron-70b-instruct
+FREE_LLM_API_KEY=gc-xxxxxxxxxxxxxxxxxxxxx
+```
+
+
+
 ### Ringkasan API Key Gratis
 
 | Provider | Free Credits | Model Available | Link |
@@ -347,6 +418,8 @@ Groq menyediakan API gratis dengan throughput tinggi.
 | **OpenRouter** | $1 | 100+ models | openrouter.ai |
 | **HuggingFace** | Free tier | Various | huggingface.co |
 | **Google AI** | Free tier | Gemini Pro | aistudio.google.com |
+| **NVIDIA API** | Free tier | Llama 3.3, Mistral, Qwen2 | build.nvidia.com |
+| **GeneralCompute** | **$10 FREE** | Various models | generalcompute.com |
 
 ---
 

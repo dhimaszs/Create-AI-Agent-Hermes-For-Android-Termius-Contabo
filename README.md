@@ -45,7 +45,7 @@ Tutorial step-by-step untuk membuat AI Agent Hermes yang berjalan di Android men
 
 ```
 Label: Contabo VPS (bebas)
-IP Address/Hostname: [IP VPS lo]
+IP Address/Hostname: YourIPVPS
 SSH Port: 22
 Username: root
 Password: [password VPS]
@@ -80,7 +80,7 @@ Password: [password VPS]
 ### Langkah 2: Edit credentials untuk contabo
 
 After purchase, lo akan dapat email dengan:
-- **IP Address**: contoh `YOUR_VPS_IP`
+- **IP Address**: contoh `YourIPVPS`
 - **Username**: `root`
 - **Password**: [random string]
 
@@ -88,7 +88,7 @@ After purchase, lo akan dapat email dengan:
 
 ```bash
 # Login via Termius
-ssh root@YOUR_VPS_IP
+ssh root@YourIPVPS
 
 # Atau langsung dari Termius app
 ```

@@ -337,7 +337,10 @@ Groq menyediakan API gratis dengan throughput tinggi.
 ### Ringkasan API Key Gratis
 
 | Provider | Free Credits | Model Available | Link |
-|----------|--------------|-----------------|------|
+|
+| **NVIDIA API** | $0 (Free tier) | Llama 3.3, Mistral, Qwen2 | [build.nvidia.com](https://build.nvidia.com/) |
+| **GeneralCompute** | **FREE $10** | Various models | [generalcompute.com](https://www.generalcompute.com/) |
+----------|--------------|-----------------|------|
 | **FreeLLMAPI** | Unlimited (free tier) | Qwen, Gemini, Llama | freellmapi.com |
 | **Groq** | $30 | Llama3, Mixtral | console.groq.com |
 | **Together AI** | $5 | Various open source | together.ai |
